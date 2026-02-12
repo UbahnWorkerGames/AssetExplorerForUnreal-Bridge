@@ -14,8 +14,8 @@ public:
     virtual FName GetSectionName() const override { return FName("Asset Meta Explorer Bridge"); }
 
     UPROPERTY(EditAnywhere, Config, Category="Import")
-    FString ImportBaseUrl = TEXT("127.0.0.1:9090");
+    FString ImportBaseUrl = TEXT("127.0.0.1:8008");
 
     UPROPERTY(EditAnywhere, Config, Category="Import", meta=(ClampMin="1", ClampMax="65535"))
-    int32 ImportListenPort = 8008;
+    int32 ImportListenPort = 9090;
 };
