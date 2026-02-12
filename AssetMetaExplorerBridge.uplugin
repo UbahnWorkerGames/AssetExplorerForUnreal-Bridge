@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 16,
+	"VersionName": "1.6",
+	"FriendlyName": "Asset Meta Explorer Bridge",
+	"Description": "Plugin by Ubahnworker Games to extract Gamedata",
+	"Category": "Editor",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AssetMetaExplorerBridge",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
